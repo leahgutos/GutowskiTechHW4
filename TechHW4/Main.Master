@@ -13,27 +13,16 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     <form id="form1" runat="server">
         <div>
-            <h1>Master Page</h1>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
             
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                  <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <div class="navbar-nav p-2">
+                    <h3>Petco</h3>
                     <a class="nav-link" href="Default.aspx">Page One</a>
                     <a class="nav-link" href="PageTwo.aspx">Page Two</a>
                     <a class="nav-link" href="PageThree.aspx">Page Three</a>
-                  </div>
                 </div>
-              
-            </nav>
-
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="flexS">
-                    <a href="Default.aspx">Page One</a>
-                    <a href="PageTwo.aspx">Page Two</a>
-                    <a href="PageThree.aspx">Page Three</a>
                 </div>
-
             </nav>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
