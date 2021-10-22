@@ -2,30 +2,40 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="card">
-        <img src="..." class="card-img-top" alt="...">
-
-        <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h3 class="m-3 text-center">
+        These are types of dogs!
+    </h3>
+  
+    <div class ="justify-content-center align-items-center m-3">
+        <div class="card img-thumbnail justify-content-center align-items-center" style="width: 25%;">
+            <img class="img-thumbnail" src="golden.jpeg" alt="...">
+            <div class="card-body">
+                <h5 class="card-title text-center">Golden Retriever</h5>
+            </div>
         </div>
     </div>
-
-    <div class="card" aria-hidden="true">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title placeholder-glow">
-                <span class="placeholder col-6"></span>
-            </h5>
-            <p class="card-text placeholder-glow">
-                <span class="placeholder col-7"></span>
-                <span class="placeholder col-4"></span>
-                <span class="placeholder col-4"></span>
-                <span class="placeholder col-6"></span>
-                <span class="placeholder col-8"></span>
-            </p>
-            <a href="#" tabindex="-1" class="btn btn-primary disabled placeholder col-6"></a>
+  <div class ="justify-content-center align-items-center m-3">
+        <div class="card img-thumbnail justify-content-center align-items-center" style="width: 25%;">
+            <img class="img-thumbnail" src="smile.jfif" alt="...">
+            <div class="card-body">
+                <h5 class="card-title text-center">Happy dog</h5>
+            </div>
+        </div>
+    </div>
+    <div class ="justify-content-center align-items-center m-3">
+        <div class="card img-thumbnail justify-content-center align-items-center" style="width: 25%;">
+            <img class="img-thumbnail" src="huh.jpg" alt="...">
+            <div class="card-body">
+                <h5 class="card-title text-center">Golden Retriever</h5>
+            </div>
+        </div>
+    </div>
+  <div class ="justify-content-center align-items-center m-3">
+        <div class="card img-thumbnail justify-content-center align-items-center" style="width: 25%;">
+            <img class="img-thumbnail" src="two.jpeg" alt="...">
+            <div class="card-body">
+                <h5 class="card-title text-center">Happy dog</h5>
+            </div>
         </div>
     </div>
 </asp:Content>
